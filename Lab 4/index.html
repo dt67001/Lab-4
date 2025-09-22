@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Coffee Shop</title>
+</head>
+<body>
+<header>
+<h1>Welcome to Coffee Shop</h1>
+<nav>
+<a href="index.html">Home</a> |
+<a href="coffee.html">Info</a>
+</nav>
+</header>
+<p>Select your favorite coffee below :)</p>
+<em>Remember to fill out each form completely!</em>
+<form action="thankyou.html" method="get">
+<p>
+<label for="name">Type your name:</label>
+<input type="text" id="name" name="name" required>
+</p>
+<p>What you're going to get today?</p>
+<label>
+<input type="checkbox" name="coffee" value="Vanilla"> Vanilla Coffee - $4.00
+<img src="Vanilla.jpg" alt="Vanilla Coffee" width="100">
+</label>
+<br>
+<label>
+<input type="checkbox" name="coffee" value="Caramel"> Caramel Coffee - $4.50
+<img src="Caramel.jpg" alt="Caramel Coffee" width="100">
+</label>
+<br>
+<label>
+<input type="checkbox" name="coffee" value="Mocha"> Mocha Coffee - $5.00
+<img src="Mocha.jpg" alt="Mocha Coffee" width="100">
+</label>
+<br>
+<label>
+<input type="checkbox" name="coffee" value="Espresso"> Espresso Coffee - $3.50
+<img src="Espresso.jpg" alt="Espresso Coffee" width="100">
+</label>
+<br>
+<p>What payment type you're using today?</p>
+<input type="radio" name="payment" value="Visa"> Visa<br>
+<input type="radio" name="payment" value="Discover"> Discover<br>
+<input type="radio" name="payment" value="MasterCard"> Master Card<br>
+<br>
+<button type="reset">Reset</button>
+<button type="submit">Submit</button>
+</form>
+</body>
+</html>
